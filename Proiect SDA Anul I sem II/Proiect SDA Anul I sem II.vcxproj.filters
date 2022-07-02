@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TAD%27s">
+      <UniqueIdentifier>{c7937c24-0e3c-4583-8a86-796792185ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Repository">
+      <UniqueIdentifier>{0c2ff77a-2262-4c86-ad1c-6363a8ab1976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{80a5bf52-a501-4875-aac3-c5096d6d0e6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{8ecb215c-a466-499f-978b-591fa6e07e77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Teste.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Friends.cpp">
+      <Filter>Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendsRepositoryFile.cpp">
+      <Filter>Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageRepoFile.cpp">
+      <Filter>Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="UserRepositoryFile.cpp">
+      <Filter>Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UserService.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageService.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendsService.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Proiect SDA Anul I sem II.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UserService.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendsService.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageService.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Exeption.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Friends.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Validator.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Multime.h">
+      <Filter>TAD%27s</Filter>
+    </ClInclude>
+    <ClInclude Include="Multimap.h">
+      <Filter>TAD%27s</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendsRepositoryFile.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageRepoFile.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="UserRepositoryFile.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Teste.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FriendsTest.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MessageTest.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="UserTest.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
